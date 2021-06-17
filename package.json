@@ -1,0 +1,20 @@
+{
+  "name": "etereo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abosch19/etereo-prueba.git"
+  },
+  "author": "Alex Bosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abosch19/etereo-prueba/issues"
+  },
+  "homepage": "https://github.com/abosch19/etereo-prueba#readme"
+}
