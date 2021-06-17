@@ -1,0 +1,1 @@
+export const FETCH_PHONES_CATALOG = 'SET_PHONES'

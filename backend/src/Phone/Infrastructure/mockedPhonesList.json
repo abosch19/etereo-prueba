@@ -2,7 +2,7 @@
 	{
 		"title": "iPhone 12",
 		"description": "iPhone 12 - 128 GB/6,1\"/Negro",
-		"image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pccomponentes.com%2Fapple-iphone-12-256gb-negro-libre&psig=AOvVaw1aWq8Wh2emGp_cg-K2KKgN&ust=1623941332962000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODUjISznPECFQAAAAAdAAAAABAM",
+		"image": "https://img.pccomponentes.com/articles/32/328937/147-apple-iphone-12-256gb-negro-libre.jpg",
 		"color": "black",
 		"price": 959,
 		"brand": "Apple"
@@ -10,7 +10,15 @@
 	{
 		"title": "iPhone 12 Pro Max",
 		"description": "iPhone 12 Pro Max - 128 GB/6,7\"/Oro",
-		"image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pccomponentes.com%2Fapple-iphone-12-256gb-negro-libre&psig=AOvVaw1aWq8Wh2emGp_cg-K2KKgN&ust=1623941332962000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODUjISznPECFQAAAAAdAAAAABAM",
+		"image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-max-gold-hero?wid=940&hei=1112&fmt=png-alpha&.v=1604021660000",
+		"color": "gold",
+		"price": 959,
+		"brand": "Apple"
+	},
+	{
+		"title": "Samsung",
+		"description": "iPhone 12 Pro Max - 128 GB/6,7\"/Oro",
+		"image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-max-gold-hero?wid=940&hei=1112&fmt=png-alpha&.v=1604021660000",
 		"color": "gold",
 		"price": 959,
 		"brand": "Apple"

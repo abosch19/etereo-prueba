@@ -1,36 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <span>Vue {{ a }}</span>
-  <PhoneList />
-  <ul>
-    <li v-for="(phone, key) in phones" :key="key">
-      {{ phone.title }}
-    </li>
-  </ul>
+  <div>
+    <Navbar />
+    <PhoneList />
+  </div>
 </template>
 
 <script>
-import PhoneList from './components/PhoneList.vue'
-// import { fetchPhonesCatalog } from './services/api.js'
+import PhoneList from "./components/PhoneList.vue";
+import Navbar from "./components/Navbar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    PhoneList
+    PhoneList,
+    Navbar,
   },
-  data() {
-    return {
-      a: 1
-    }
-  }
-  // async setup() {
-  //   let phones = []
-  //   // await fetchPhonesCatalog().then(result => phones = result.data)
-  //   return {
-  //     phones
-  //   }
-  // }
-}
+};
 </script>
 
 <style>
@@ -40,6 +25,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 </style>
