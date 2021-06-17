@@ -1,15 +1,19 @@
 <template>
-  <Loader v-if="$store.state.phones.length === 0" />
-  <ul v-else>
+  <ul v-if="$store.state.phones.length > 0">
     <li v-for="phone in $store.state.phones" :key="phone.title">
       <PhoneCard :phone="phone" />
+    </li>
+  </ul>
+  <ul v-else>
+    <li v-for="n in 30" :key="n">
+      <PhoneCardSkeleton />
     </li>
   </ul>
 </template>
 <script>
 import { useStore } from "vuex";
 import PhoneCard from "./PhoneCard.vue";
-import Loader from "./Loader.vue";
+import PhoneCardSkeleton from "./PhoneCardSkeleton.vue";
 import { FETCH_PHONES_CATALOG } from "../store/mutations";
 
 export default {
@@ -19,18 +23,20 @@ export default {
   },
   components: {
     PhoneCard,
-    Loader,
+    PhoneCardSkeleton,
   },
 };
 </script>
 <style scoped>
 ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   padding: 0;
 }
 li {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

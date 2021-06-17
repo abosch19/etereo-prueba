@@ -1,26 +1,50 @@
 [
 	{
-		"title": "iPhone 12",
 		"description": "iPhone 12 - 128 GB/6,1\"/Negro",
 		"image": "https://img.pccomponentes.com/articles/32/328937/147-apple-iphone-12-256gb-negro-libre.jpg",
 		"color": "black",
+		"color_label": "Negro",
 		"price": 959,
 		"brand": "Apple"
 	},
 	{
-		"title": "iPhone 12 Pro Max",
 		"description": "iPhone 12 Pro Max - 128 GB/6,7\"/Oro",
 		"image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-max-gold-hero?wid=940&hei=1112&fmt=png-alpha&.v=1604021660000",
 		"color": "gold",
+		"color_label": "Oro",
 		"price": 959,
 		"brand": "Apple"
 	},
 	{
-		"title": "Samsung",
-		"description": "iPhone 12 Pro Max - 128 GB/6,7\"/Oro",
-		"image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-max-gold-hero?wid=940&hei=1112&fmt=png-alpha&.v=1604021660000",
-		"color": "gold",
-		"price": 959,
-		"brand": "Apple"
+		"description": "Xiaomi Poco X3 NFC 6/64GB Gris Sombra Libre",
+		"image": "https://img.pccomponentes.com/articles/32/323789/1502-xiaomi-poco-x3-nfc-6-64gb-gris-sombra-libre-especificaciones.jpg",
+		"color": "black",
+		"color_label": "Negro",
+		"price": 209.99,
+		"brand": "Xiaomi"
+	},
+	{
+		"description": "Samsung Galaxy A21s 4 128GB Negro Libre",
+		"image": "https://img.pccomponentes.com/articles/33/332028/1678-samsung-galaxy-a21s-4-128gb-negro-libre.jpg",
+		"color": "black",
+		"color_label": "Negro",
+		"price": 189,
+		"brand": "Samsung"
+	},
+	{
+		"description": "Samsung Galaxy Note 10 Plus 512GB Negro Libre",
+		"image": "https://img.pccomponentes.com/articles/22/225362/note10-combo-aurablack.jpg",
+		"color": "black",
+		"color_label": "Negro",
+		"price": 1580.80,
+		"brand": "Samsung"
+	},
+	{
+		"description": "Samsung Galaxy M11 3 32GB Azul Libre",
+		"image": "https://img.pccomponentes.com/articles/33/335149/1181-samsung-galaxy-m11-3-32gb-azul-libre.jpg",
+		"color": "blue",
+		"color_label": "Azul",
+		"price": 138.99,
+		"brand": "Samsung"
 	}
 ]

@@ -13,6 +13,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  color: white;
+  background-color: #ff6000;
 }
 </style>
